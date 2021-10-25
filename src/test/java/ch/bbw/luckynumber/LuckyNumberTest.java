@@ -66,8 +66,8 @@ class LuckyNumberTest {
 
       assertTrue(values[0].contains("Rot") || values[0].contains("Schwarz"));
 
-      assertTrue(values[1].equals("Herz") || values[2].equals("Karo")
-            || values[4].equals("Pik") || values[3].equals("Karo"));
+      assertTrue(values[1].equals("Herz") || values[1].equals("Karo")
+            || values[1].equals("Pik") || values[1].equals("Kreuz"));
 
       int number = Integer.parseInt(values[2]);
       assertTrue(number >=2);
