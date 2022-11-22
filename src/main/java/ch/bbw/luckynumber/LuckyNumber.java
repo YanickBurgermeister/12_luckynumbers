@@ -75,7 +75,6 @@ public class LuckyNumber {
             }
             i++;
         }
-
         return list;
     }
 
