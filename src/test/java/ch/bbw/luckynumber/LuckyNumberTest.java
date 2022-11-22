@@ -98,7 +98,7 @@ class LuckyNumberTest {
       assertTrue(value == 19);
    }
 
-   @Test
+
    void triangleNumbersUpTo() {
       LuckyNumber generator = new LuckyNumber();
       List<Integer> list = generator.triangleNumbersUpTo(10);
