@@ -73,8 +73,10 @@ public class LuckyNumber {
             } else {
                 prim = true;
             }
+
             i++;
         }
+
         return list;
     }
 
